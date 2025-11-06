@@ -1,0 +1,23 @@
+<stack class="container">
+    <div class="content">
+        <text class="title">{{ title }}</text>
+        <text class="status-text">{{ statusText }}</text>
+        <text class="number-text">{{ numberText }}</text>
+
+        <div class="button-row">
+            <input class="btn-num1"
+                   value="{{ buttons[0] }}"
+                   onclick="guessNumber(buttons[0])"></input>
+            <input class="btn-num2"
+                   value="{{ buttons[1] }}"
+                   onclick="guessNumber(buttons[1])"></input>
+            <input class="btn-num3"
+                   value="{{ buttons[2] }}"
+                   onclick="guessNumber(buttons[2])"></input>
+        </div>
+
+        <div class="button-row">
+            <input class="btn-restart" value="Play Again" onclick="startGame()"></input>
+        </div>
+    </div>
+</stack>

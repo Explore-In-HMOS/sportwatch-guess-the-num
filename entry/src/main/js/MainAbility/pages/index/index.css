@@ -1,0 +1,88 @@
+.container {
+  width: 454px;
+  height: 454px;
+  background-color: blanchedalmond;
+}
+
+.content {
+  width: 380px;
+  height: 400px;
+  left: 37px;
+  top: 27px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 380px;
+  height: 40px;
+  font-size: 24px;
+  color: darkslateblue;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.status-text {
+  width: 340px;
+  height: 50px;
+  font-size: 18px;
+  color: forestgreen;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.number-text {
+  width: 20%;
+  height: 20%;
+  font-size: 64px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.button-row {
+  width: 240px;
+  height: 60px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.btn-num1 {
+  width: 60px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.btn-num2 {
+  width: 60px;
+  height: 50px;
+  background-color: pink;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.btn-num3 {
+  width: 60px;
+  height: 50px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.btn-restart {
+  width: 100px;
+  height: 50px;
+  background-color: forestgreen;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+}
