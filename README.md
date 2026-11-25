@@ -2,7 +2,7 @@
 
 # Guess The Num
 
-HarmonyOS Lite Wearable application that allows users to play a simple number guessing game. Users are presented with
+HarmonyOS SportWatch application that allows users to play a simple number guessing game. Users are presented with
 three randomly generated numbers and must select the correct one to win. The game provides immediate feedback and
 prevents starting a new round until the user makes a guess.
 
@@ -44,7 +44,7 @@ entry/src/main/js/MainAbility
 
 ## Supported Devices
 
-- Huawei Lite Wearable
+- Huawei SportWatch
 - HarmonyOS-compatible devices supporting JS UI pages
 
 # License
